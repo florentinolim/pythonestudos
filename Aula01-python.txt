@@ -1,0 +1,45 @@
+Utilizando Idle.
+
+
+>>> print('Olá, Mundo')
+Olá, Mundo
+>>> print(7+4)
+11
+>>> print ('7'+'4')
+74
+>>> print('ola', 5)
+ola 5
+>>> nome='Reginaldo'
+>>> idade=25
+>>> peso=75.8
+>>> print(nome,idade,peso)
+Reginaldo 25 75.8
+>>> nome = input("Qual o seu nome?")
+Qual o seu nome?reginaldo
+>>> idade = input("Qual a sua idade?")
+Qual a sua idade?48
+>>> peso = input("qual o seu peso?")
+qual o seu peso?60
+>>> print(nome, idade, peso)
+reginaldo 48 60
+>>> 
+
+
+Desafio:
+
+01 - Crie um script python que leia o nome de uma pessoa e mostre uma mensagem de boas vindas de acordo com o valor digitado.
+02 - Crie um script python que leia o dia o mês e o ano de nascimento de uma pessoa e mostre uma mensagem com a data formatada.
+03 - Crie um script Pyton que leia dois numeros e tente mostrar a soma entre eles.
+
+
+
+
+
+
+
+
+
+
+
+
+
