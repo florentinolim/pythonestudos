@@ -1,13 +1,13 @@
 #Desenvolva um programa que leia 6 numeros inteiros  e mostre a soma
 # apenas daqueles que forem pares.Se o valor digitado for impar, ele desconsidera.
-s = 0
-for n in range(0, 6):
-    num = int(input('Digite o {} numero:'.format(n)))
+soma = 0
+cont = 0
+for c in range(1, 7):
+    num = int(input('Digite o {} valor:'.format(c)))
     if num % 2 == 0:
-        s += num
-        print('O numero digitado é par {}'.format(num))
-    if num % 2 == 1:
-        print('O numero digitado é impar {}'.format(num))
+        soma += num
+        cont += 1
+print('Você informou {} números  PARES e a soma foi {}'.format(cont, soma))
 
-print(s)
+
 
