@@ -4,8 +4,8 @@
 s = 0
 s1 = 0
 from datetime import date
-for n in range(0, 7):
-    AnoNasc = int(input('Digite o ano de nascimento: '))
+for n in range(1, 8):
+    AnoNasc = int(input('Digite o ano a {}º nasceu de nascimento: '.format(n)))
     Anoatual = date.today().year
     IdadeAtual = Anoatual - AnoNasc
     if IdadeAtual >= 21:
