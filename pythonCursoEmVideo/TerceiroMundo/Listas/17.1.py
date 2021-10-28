@@ -8,13 +8,15 @@ for v in valores:
 '''for c, v in enumerate(valores):
     print(f'Os valores {c} com seus respectivos indices são:{v}')
 print('Cheguei ao final da lista.')'''
+
 ''' Adicionando valores através do teclado '''
 '''valores = list()
 for cont in range(0, 5):
     valores.append(int(input('Digite um valor: ')))
 for c, v in enumerate(valores):
     print(f'Na posição {c} encontrei o valor {v}!')
-print('Cheguei ao final da lista.')'''
+print('Cheguei ao final da lista.')
+'''
 
 '''Criando duas lista uma recebendo a outra'''
 a = [2, 3, 4, 7]
