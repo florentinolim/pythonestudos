@@ -1,5 +1,6 @@
-#Escreava um programa que faça o cmputador "pensar" em um número entre 0 e 5 e peça para o usuário tentar descobrie qual foi o numero escolhido pelo conmputador
-#O programa devera escrever na telase o usuário venceu ou perdeu
+'''Escreava um programa que faça o cmputador "pensar" em um número entre 0 e 5 e peça
+para o usuário tentar descobrie qual foi o numero escolhido pelo conmputador
+O programa devera escrever na telase o usuário venceu ou perdeu '''
 import random
 nuser = int(input('Infome o numero: '))
 ncomp = random.randint(0, 5)
